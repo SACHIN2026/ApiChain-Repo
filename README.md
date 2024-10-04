@@ -4,15 +4,45 @@ This project is a React-based dashboard for chaining multiple API calls in a wor
 
 ## Setup Instructions
 
-1. Ensure you have Node.js and npm installed on your system.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory in your terminal.
-4. Run `npm install` to install the required dependencies.
-5. Start the development server with `npm run dev`.
-
 ### Prerequisites
 - Node.js (v14 or above)
-- Yarn or npm
+- Yarn or npm (latest stable version)
+
+Follow these steps to set up the project:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/SACHIN2026/ApiChain-Repo
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd api-chaining-dashboard
+   ```
+
+3. Install dependencies:
+   If using npm:
+   ```
+   npm install
+   ```
+
+   If using Yarn:
+   ```
+   yarn install
+   ```
+
+4. Start the development server:
+   If using npm:
+   ```
+   npm run dev
+   ```
+  
+   If using Yarn:
+   ```
+   yarn dev
+   ```
+
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Approach
 
@@ -26,7 +56,7 @@ The API Chaining Dashboard is built using React and leverages the following key 
 
 ## Assumptions and Decisions
 
-1. The dashboard assumes that the APIs being called accept and return JSON data.
+1. The dashboard assumes that the APIs being called accept and return `JSON` data.
 2. Error handling is implemented at each step, allowing the workflow to continue until an error occurs.
 3. The UI is designed to be responsive, adapting to different screen sizes.
 4. The project uses the `shadcn/ui` component library for UI elements.
@@ -35,7 +65,7 @@ The API Chaining Dashboard is built using React and leverages the following key 
 ## Completed Features
 
 1. Dynamic addition and removal of API call steps.
-2. Support for GET and POST requests.
+2. Support for `GET` and `POST` requests.
 3. Special handling for fetching comments by post ID.
 4. Ability to use data from previous API responses in subsequent calls.
 5. Real-time display of API responses and errors.
@@ -44,7 +74,7 @@ The API Chaining Dashboard is built using React and leverages the following key 
 
 ## Known Issues
 
-1. The dashboard currently doesn't support other HTTP methods like PUT, DELETE, etc.
+1. The dashboard currently doesn't support other `HTTP` methods like PUT, DELETE, etc.
 2. There's no persistence of workflows - data is lost on page refresh.
 3. The error handling could be more robust, providing more detailed error messages and recovery options.
 4. The UI might benefit from additional features like drag-and-drop reordering of steps.

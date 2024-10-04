@@ -10,6 +10,10 @@ This project is a React-based dashboard for chaining multiple API calls in a wor
 4. Run `npm install` to install the required dependencies.
 5. Start the development server with `npm run dev`.
 
+### Prerequisites
+- Node.js (v14 or above)
+- Yarn or npm
+
 ## Approach
 
 The API Chaining Dashboard is built using React and leverages the following key concepts:
@@ -26,7 +30,7 @@ The API Chaining Dashboard is built using React and leverages the following key 
 2. Error handling is implemented at each step, allowing the workflow to continue until an error occurs.
 3. The UI is designed to be responsive, adapting to different screen sizes.
 4. The project uses the `shadcn/ui` component library for UI elements.
-5. The dashboard supports GET, POST, and a special GET_COMMENTS request type for demonstration purposes.
+5. The dashboard supports `GET`, `POST`, and a special `GET_COMMENTS` request type for demonstration purposes.
 
 ## Completed Features
 
